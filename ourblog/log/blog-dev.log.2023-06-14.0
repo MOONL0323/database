@@ -1,0 +1,218 @@
+2023-06-14 21:49:48.033  INFO 17288 --- [main] com.ldf.demo.DemoApplicationTests        : Starting DemoApplicationTests on LAPTOP-JCMQE3V5 with PID 17288 (started by mi in D:\课程文件\软件工程\OurBlog)
+2023-06-14 21:49:48.037  INFO 17288 --- [main] com.ldf.demo.DemoApplicationTests        : The following profiles are active: dev
+2023-06-14 21:49:50.464  INFO 17288 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-14 21:49:50.614  INFO 17288 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-06-14 21:49:51.043  INFO 17288 --- [main] com.ldf.demo.DemoApplicationTests        : Started DemoApplicationTests in 3.351 seconds (JVM running for 6.35)
+2023-06-14 21:49:51.264  INFO 17288 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2023-06-14 21:49:59.129  INFO 9380 --- [restartedMain] com.ldf.demo.DemoApplication             : Starting DemoApplication on LAPTOP-JCMQE3V5 with PID 9380 (D:\课程文件\软件工程\OurBlog\target\classes started by mi in D:\课程文件\软件工程\OurBlog)
+2023-06-14 21:49:59.132  INFO 9380 --- [restartedMain] com.ldf.demo.DemoApplication             : The following profiles are active: dev
+2023-06-14 21:49:59.173  INFO 9380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-06-14 21:49:59.173  INFO 9380 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-06-14 21:50:00.525  INFO 9380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2023-06-14 21:50:00.533  INFO 9380 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-14 21:50:00.533  INFO 9380 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.38]
+2023-06-14 21:50:01.109  INFO 9380 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-14 21:50:01.109  INFO 9380 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1936 ms
+2023-06-14 21:50:01.773  INFO 9380 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2023-06-14 21:50:01.867  INFO 9380 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2023-06-14 21:50:02.170  INFO 9380 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-06-14 21:50:02.203  INFO 9380 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2023-06-14 21:50:02.211  INFO 9380 --- [restartedMain] com.ldf.demo.DemoApplication             : Started DemoApplication in 3.403 seconds (JVM running for 3.715)
+2023-06-14 21:50:12.537  INFO 9380 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-14 21:50:12.537  INFO 9380 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-14 21:50:12.555  INFO 9380 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 17 ms
+2023-06-14 21:50:12.596  INFO 9380 --- [http-nio-80-exec-1] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/', classMethod='com.ldf.demo.controller.IndexShowController.index', args=[1, {}]}
+2023-06-14 21:50:12.608  INFO 9380 --- [http-nio-80-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-14 21:50:13.013  INFO 9380 --- [http-nio-80-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-14 21:50:13.180  INFO 9380 --- [http-nio-80-exec-1] com.ldf.demo.aspect.LogAspect            : Result : index
+2023-06-14 21:50:16.387  INFO 9380 --- [http-nio-80-exec-2] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:50:16.409  INFO 9380 --- [http-nio-80-exec-2] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:50:59.191  INFO 9380 --- [http-nio-80-exec-8] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/blog/13', classMethod='com.ldf.demo.controller.IndexShowController.blog', args=[13, {}]}
+2023-06-14 21:50:59.297  INFO 9380 --- [http-nio-80-exec-8] com.ldf.demo.aspect.LogAspect            : Result : blog
+2023-06-14 21:51:00.104  INFO 9380 --- [http-nio-80-exec-7] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:51:00.119  INFO 9380 --- [http-nio-80-exec-7] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:51:00.188  INFO 9380 --- [http-nio-80-exec-2] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/comments/13', classMethod='com.ldf.demo.controller.CommentShowController.comments', args=[13, {}]}
+2023-06-14 21:51:00.199  INFO 9380 --- [http-nio-80-exec-2] com.ldf.demo.aspect.LogAspect            : Result : blog :: commentList
+2023-06-14 21:54:00.002  INFO 9380 --- [http-nio-80-exec-7] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/archives', classMethod='com.ldf.demo.controller.ArchiveShowController.archives', args=[{}]}
+2023-06-14 21:54:00.021  INFO 9380 --- [http-nio-80-exec-7] com.ldf.demo.aspect.LogAspect            : Result : archives
+2023-06-14 21:54:00.154  INFO 9380 --- [http-nio-80-exec-9] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:54:00.203  INFO 9380 --- [http-nio-80-exec-9] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:54:01.067  INFO 9380 --- [http-nio-80-exec-7] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/message', classMethod='com.ldf.demo.controller.MessageShowController.Message', args=[]}
+2023-06-14 21:54:01.076  INFO 9380 --- [http-nio-80-exec-7] com.ldf.demo.aspect.LogAspect            : Result : message
+2023-06-14 21:54:01.140  INFO 9380 --- [http-nio-80-exec-5] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:54:01.149  INFO 9380 --- [http-nio-80-exec-5] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:54:01.176  INFO 9380 --- [http-nio-80-exec-10] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/messagecomment', classMethod='com.ldf.demo.controller.MessageShowController.messages', args=[{}]}
+2023-06-14 21:54:01.192  INFO 9380 --- [http-nio-80-exec-10] com.ldf.demo.aspect.LogAspect            : Result : message :: messageList
+2023-06-14 21:54:02.134  INFO 9380 --- [http-nio-80-exec-7] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/picture', classMethod='com.ldf.demo.controller.PictureShowController.pictures', args=[{}]}
+2023-06-14 21:54:02.151  INFO 9380 --- [http-nio-80-exec-7] com.ldf.demo.aspect.LogAspect            : Result : picture
+2023-06-14 21:54:02.248  INFO 9380 --- [http-nio-80-exec-9] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:54:02.273  INFO 9380 --- [http-nio-80-exec-9] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:54:03.123  INFO 9380 --- [http-nio-80-exec-3] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/about', classMethod='com.ldf.demo.controller.AboutShowController.about', args=[]}
+2023-06-14 21:54:03.125  INFO 9380 --- [http-nio-80-exec-3] com.ldf.demo.aspect.LogAspect            : Result : about
+2023-06-14 21:54:03.204  INFO 9380 --- [http-nio-80-exec-7] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:54:03.213  INFO 9380 --- [http-nio-80-exec-7] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:54:04.689  INFO 9380 --- [http-nio-80-exec-4] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/', classMethod='com.ldf.demo.controller.IndexShowController.index', args=[1, {}]}
+2023-06-14 21:54:04.705  INFO 9380 --- [http-nio-80-exec-4] com.ldf.demo.aspect.LogAspect            : Result : index
+2023-06-14 21:54:04.866  INFO 9380 --- [http-nio-80-exec-9] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:54:04.881  INFO 9380 --- [http-nio-80-exec-9] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:55:42.818  INFO 9380 --- [http-nio-80-exec-2] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/types/-1', classMethod='com.ldf.demo.controller.TypeShowController.listType', args=[1, -1, {}]}
+2023-06-14 21:55:42.834  INFO 9380 --- [http-nio-80-exec-2] com.ldf.demo.aspect.LogAspect            : Result : types
+2023-06-14 21:55:42.914 ERROR 9380 --- [http-nio-80-exec-4] com.ldf.demo.handel.ControllerException  : Request URL: http://localhost/types/%E6%97%A0 Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "无"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NumberFormatException: For input string: "无"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2023-06-14 21:55:42.914 ERROR 9380 --- [http-nio-80-exec-3] com.ldf.demo.handel.ControllerException  : Request URL: http://localhost/types/%E6%97%A0%C2%B7 Exception : {}
+
+org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "无·"
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:133)
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:121)
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:167)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:134)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:105)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:878)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:792)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1040)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: java.lang.NumberFormatException: For input string: "无·"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:589)
+	at java.lang.Long.valueOf(Long.java:803)
+	at org.springframework.util.NumberUtils.parseNumber(NumberUtils.java:214)
+	at org.springframework.beans.propertyeditors.CustomNumberEditor.setAsText(CustomNumberEditor.java:115)
+	at org.springframework.beans.TypeConverterDelegate.doConvertTextValue(TypeConverterDelegate.java:429)
+	at org.springframework.beans.TypeConverterDelegate.doConvertValue(TypeConverterDelegate.java:402)
+	at org.springframework.beans.TypeConverterDelegate.convertIfNecessary(TypeConverterDelegate.java:155)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:73)
+	at org.springframework.beans.TypeConverterSupport.convertIfNecessary(TypeConverterSupport.java:53)
+	at org.springframework.validation.DataBinder.convertIfNecessary(DataBinder.java:693)
+	at org.springframework.web.method.annotation.AbstractNamedValueMethodArgumentResolver.resolveArgument(AbstractNamedValueMethodArgumentResolver.java:125)
+	... 47 common frames omitted
+
+2023-06-14 21:55:42.915  WARN 9380 --- [http-nio-80-exec-3] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "无·"]
+2023-06-14 21:55:42.915  WARN 9380 --- [http-nio-80-exec-4] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.method.annotation.MethodArgumentTypeMismatchException: Failed to convert value of type 'java.lang.String' to required type 'java.lang.Long'; nested exception is java.lang.NumberFormatException: For input string: "无"]
+2023-06-14 21:55:42.964  INFO 9380 --- [http-nio-80-exec-8] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:55:42.976  INFO 9380 --- [http-nio-80-exec-8] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:55:44.591  INFO 9380 --- [http-nio-80-exec-5] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/message', classMethod='com.ldf.demo.controller.MessageShowController.Message', args=[]}
+2023-06-14 21:55:44.591  INFO 9380 --- [http-nio-80-exec-5] com.ldf.demo.aspect.LogAspect            : Result : message
+2023-06-14 21:55:44.693  INFO 9380 --- [http-nio-80-exec-4] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:55:44.712  INFO 9380 --- [http-nio-80-exec-2] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/messagecomment', classMethod='com.ldf.demo.controller.MessageShowController.messages', args=[{}]}
+2023-06-14 21:55:44.714  INFO 9380 --- [http-nio-80-exec-4] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:55:44.739  INFO 9380 --- [http-nio-80-exec-2] com.ldf.demo.aspect.LogAspect            : Result : message :: messageList
+2023-06-14 21:55:48.282  INFO 9380 --- [http-nio-80-exec-5] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/picture', classMethod='com.ldf.demo.controller.PictureShowController.pictures', args=[{}]}
+2023-06-14 21:55:48.285  INFO 9380 --- [http-nio-80-exec-5] com.ldf.demo.aspect.LogAspect            : Result : picture
+2023-06-14 21:55:48.419  INFO 9380 --- [http-nio-80-exec-8] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:55:48.447  INFO 9380 --- [http-nio-80-exec-8] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:55:52.297  INFO 9380 --- [http-nio-80-exec-9] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/message', classMethod='com.ldf.demo.controller.MessageShowController.Message', args=[]}
+2023-06-14 21:55:52.297  INFO 9380 --- [http-nio-80-exec-9] com.ldf.demo.aspect.LogAspect            : Result : message
+2023-06-14 21:55:52.349  INFO 9380 --- [http-nio-80-exec-3] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/footer/blogmessage', classMethod='com.ldf.demo.controller.IndexShowController.blogMessage', args=[{}]}
+2023-06-14 21:55:52.359  INFO 9380 --- [http-nio-80-exec-3] com.ldf.demo.aspect.LogAspect            : Result : index :: blogMessage
+2023-06-14 21:55:52.371  INFO 9380 --- [http-nio-80-exec-8] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/messagecomment', classMethod='com.ldf.demo.controller.MessageShowController.messages', args=[{}]}
+2023-06-14 21:55:52.375  INFO 9380 --- [http-nio-80-exec-8] com.ldf.demo.aspect.LogAspect            : Result : message :: messageList
+2023-06-14 21:56:20.503  INFO 9380 --- [http-nio-80-exec-9] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/message', classMethod='com.ldf.demo.controller.MessageShowController.post', args=[Message{id=null, email='liangruikun2002@outlook.com', nickname='LRK', content='123345', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=Message{id=17, email='null', nickname='null', content='null', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=null, parentNickname='null'}, parentNickname='null'}, org.apache.catalina.session.StandardSessionFacade@125b4228, {message=Message{id=null, email='liangruikun2002@outlook.com', nickname='LRK', content='123345', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=Message{id=17, email='null', nickname='null', content='null', avatar='null', createTime=null, parentMessageId=null, adminMessage=false, replyMessages=[], parentMessage=null, parentNickname='null'}, parentNickname='null'}, org.springframework.validation.BindingResult.message=org.springframework.validation.BeanPropertyBindingResult: 0 errors}]}
+2023-06-14 21:56:20.506  INFO 9380 --- [http-nio-80-exec-9] com.ldf.demo.aspect.LogAspect            : Result : message::messageList
+2023-06-14 21:56:20.520  INFO 9380 --- [http-nio-80-exec-6] com.ldf.demo.aspect.LogAspect            : Request : RequestLog{url='0:0:0:0:0:0:0:1', ip='http://localhost/;jsessionid=2BDF5D4AFE71FAEF7C44720E2A8E0173', classMethod='com.ldf.demo.controller.IndexShowController.index', args=[1, {}]}
+2023-06-14 21:56:20.531  INFO 9380 --- [http-nio-80-exec-6] com.ldf.demo.aspect.LogAspect            : Result : index
+2023-06-14 23:21:14.410  WARN 9380 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=38m30s490ms166?s400ns).
+2023-06-14 23:26:29.024  WARN 9380 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m14s550ms244?s200ns).
+2023-06-14 23:47:41.047  WARN 9380 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=14m11s929ms488?s400ns).
