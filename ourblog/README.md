@@ -15,4 +15,4 @@
 
 # 打开网址：http://localhost:8800/admin
 # 输入刚刚上传的用户密码即可，如图：
-![Uploading image.png…]()
+![image](https://github.com/MOONL0323/database/assets/103804319/1551899d-2833-4dd9-b558-ac0504126341)
